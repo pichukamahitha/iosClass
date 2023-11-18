@@ -1,0 +1,12 @@
+{
+    "Simulator Target Bundle": "class.iosClass",
+       "aps" : {
+          "alert" : {
+             "title" : "Game Request",
+             "subtitle" : "Five Card Draw",
+             "body" : "Bob wants to play poker"
+          },
+          "category" : "GAME_INVITATION"
+       },
+       "gameID" : "12345678"
+}

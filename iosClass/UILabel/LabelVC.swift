@@ -7,9 +7,12 @@
 
 import UIKit
 
+
+
 class LabelVC: UIViewController {
 
-    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet var welcomeLabel: UILabel!
+     var delegate : referenceDelegate?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,16 +20,39 @@ class LabelVC: UIViewController {
         welcomeLabel.textColor = UIColor.red
         welcomeLabel.textAlignment = .left
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+            let sceneDelegate = windowScene.delegate as? SceneDelegate
+        else {
+            return
+          }
+           print(sceneDelegate.window?.rootViewController?.children)
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let viewControllers = appDelegate.window?.rootViewController?.presentedViewController
+        {
+            print(viewControllers)// Array of all viewcontroller even after presented
+        }
+        else if let viewControllers = appDelegate.window?.rootViewController?.children
+        {
+            print(viewControllers)
+        }
     }
-    */
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
+        if (appDelegate.window?.rootViewController?.presentedViewController) != nil
+        {
+            print(appDelegate.window?.rootViewController?.presentedViewController)
+        }
+        else if (appDelegate.window?.rootViewController?.children) != nil
+        {
+            print(appDelegate.window?.rootViewController?.children)
+        }
+        delegate?.sendData()
+    }
+    
 }
