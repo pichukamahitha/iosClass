@@ -28,8 +28,12 @@ class ViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
     }
+
     override func viewDidLayoutSubviews() {
-        <#code#>
+     
+     }
+    override func viewWillLayoutSubviews() {
+
     }
     func createCountryPicker(){
         let picker = UIPickerView.self
