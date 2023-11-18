@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5528E62AF9196600154523 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5528E52AF9196600154523 /* home.storyboard */; };
+		2B5528E82AF91A7100154523 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5528E72AF91A7100154523 /* homeViewController.swift */; };
+		2B8686262AD80742004D85F5 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686252AD80742004D85F5 /* signinViewController.swift */; };
+		2B8686282AD809D5004D85F5 /* languageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686272AD809D4004D85F5 /* languageViewController.swift */; };
+		2B86862A2AD95D94004D85F5 /* CategoriesViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686292AD95D94004D85F5 /* CategoriesViewcontroller.swift */; };
+		2B86862D2AD95FC4004D85F5 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86862B2AD95FC4004D85F5 /* CategoriesCollectionViewCell.swift */; };
+		2B86862E2AD95FC4004D85F5 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B86862C2AD95FC4004D85F5 /* CategoriesCollectionViewCell.xib */; };
+		2B8686302ADA1520004D85F5 /* categoriesDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86862F2ADA1520004D85F5 /* categoriesDataFile.swift */; };
+		2B8686342ADD6DAB004D85F5 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686332ADD6DAB004D85F5 /* loginViewController.swift */; };
+		2B8686362ADD8226004D85F5 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686352ADD8226004D85F5 /* loginVC.swift */; };
+		2B8686382ADE1BEB004D85F5 /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686372ADE1BEB004D85F5 /* signinVC.swift */; };
+		2B86863A2ADEC35E004D85F5 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686392ADEC35E004D85F5 /* OTPViewController.swift */; };
+		2B86863D2AE2CE4B004D85F5 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86863C2AE2CE4B004D85F5 /* settingsViewController.swift */; };
+		2B86863F2AE364BE004D85F5 /* aboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86863E2AE364BE004D85F5 /* aboutusViewController.swift */; };
+		2B8686432AE36FF4004D85F5 /* dataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8686422AE36FF4004D85F5 /* dataFile.swift */; };
+		2B9D1FED2AD56B3D003706AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D1FEC2AD56B3D003706AF /* AppDelegate.swift */; };
+		2B9D1FEF2AD56B3D003706AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D1FEE2AD56B3D003706AF /* SceneDelegate.swift */; };
+		2B9D1FF12AD56B3D003706AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D1FF02AD56B3D003706AF /* ViewController.swift */; };
+		2B9D1FF42AD56B3D003706AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D1FF22AD56B3D003706AF /* Main.storyboard */; };
+		2B9D1FF72AD56B3D003706AF /* Lematinalproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D1FF52AD56B3D003706AF /* Lematinalproject.xcdatamodeld */; };
+		2B9D1FF92AD56B3E003706AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D1FF82AD56B3E003706AF /* Assets.xcassets */; };
+		2B9D1FFC2AD56B3E003706AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D1FFA2AD56B3E003706AF /* LaunchScreen.storyboard */; };
+		2B9D20072AD56B3E003706AF /* LematinalprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D20062AD56B3E003706AF /* LematinalprojectTests.swift */; };
+		2B9D20112AD56B3E003706AF /* LematinalprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D20102AD56B3E003706AF /* LematinalprojectUITests.swift */; };
+		2B9D20132AD56B3E003706AF /* LematinalprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D20122AD56B3E003706AF /* LematinalprojectUITestsLaunchTests.swift */; };
+		2B9D20202AD5705C003706AF /* onBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D201F2AD5705C003706AF /* onBoardingVC.swift */; };
+		2B9D20232AD57387003706AF /* onboardingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D20212AD57387003706AF /* onboardingViewCell.swift */; };
+		2B9D20242AD57387003706AF /* onboardingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9D20222AD57387003706AF /* onboardingViewCell.xib */; };
+		5940C5B59F75F9C33188E8B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */; };
+		E24E46A9D25CD77427B24B1B /* Pods_LematinalprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */; };
+		EB4333FF6C80183D2FA6021D /* Pods_Lematinalproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B9D20032AD56B3E003706AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9D1FE12AD56B3D003706AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9D1FE82AD56B3D003706AF;
+			remoteInfo = Lematinalproject;
+		};
+		2B9D200D2AD56B3E003706AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B9D1FE12AD56B3D003706AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9D1FE82AD56B3D003706AF;
+			remoteInfo = Lematinalproject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B5528E52AF9196600154523 /* home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		2B5528E72AF91A7100154523 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		2B8686252AD80742004D85F5 /* signinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		2B8686272AD809D4004D85F5 /* languageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageViewController.swift; sourceTree = "<group>"; };
+		2B8686292AD95D94004D85F5 /* CategoriesViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewcontroller.swift; sourceTree = "<group>"; };
+		2B86862B2AD95FC4004D85F5 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B86862C2AD95FC4004D85F5 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		2B86862F2ADA1520004D85F5 /* categoriesDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesDataFile.swift; sourceTree = "<group>"; };
+		2B8686332ADD6DAB004D85F5 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		2B8686352ADD8226004D85F5 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		2B8686372ADE1BEB004D85F5 /* signinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinVC.swift; sourceTree = "<group>"; };
+		2B8686392ADEC35E004D85F5 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		2B86863C2AE2CE4B004D85F5 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		2B86863E2AE364BE004D85F5 /* aboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutusViewController.swift; sourceTree = "<group>"; };
+		2B8686422AE36FF4004D85F5 /* dataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataFile.swift; sourceTree = "<group>"; };
+		2B9D1FE92AD56B3D003706AF /* Lematinalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lematinalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9D1FEC2AD56B3D003706AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B9D1FEE2AD56B3D003706AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B9D1FF02AD56B3D003706AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B9D1FF32AD56B3D003706AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B9D1FF62AD56B3D003706AF /* Lematinalproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lematinalproject.xcdatamodel; sourceTree = "<group>"; };
+		2B9D1FF82AD56B3E003706AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9D1FFB2AD56B3E003706AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B9D1FFD2AD56B3E003706AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9D20022AD56B3E003706AF /* LematinalprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LematinalprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9D20062AD56B3E003706AF /* LematinalprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LematinalprojectTests.swift; sourceTree = "<group>"; };
+		2B9D200C2AD56B3E003706AF /* LematinalprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LematinalprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9D20102AD56B3E003706AF /* LematinalprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LematinalprojectUITests.swift; sourceTree = "<group>"; };
+		2B9D20122AD56B3E003706AF /* LematinalprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LematinalprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B9D201F2AD5705C003706AF /* onBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingVC.swift; sourceTree = "<group>"; };
+		2B9D20212AD57387003706AF /* onboardingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewCell.swift; sourceTree = "<group>"; };
+		2B9D20222AD57387003706AF /* onboardingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = onboardingViewCell.xib; sourceTree = "<group>"; };
+		55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LematinalprojectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.release.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject_LematinalprojectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.release.xcconfig"; sourceTree = "<group>"; };
+		DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9D1FE62AD56B3D003706AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4333FF6C80183D2FA6021D /* Pods_Lematinalproject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D1FFF2AD56B3E003706AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24E46A9D25CD77427B24B1B /* Pods_LematinalprojectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D20092AD56B3E003706AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5940C5B59F75F9C33188E8B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8686242AD8024B004D85F5 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D201F2AD5705C003706AF /* onBoardingVC.swift */,
+				2B9D20212AD57387003706AF /* onboardingViewCell.swift */,
+				2B9D20222AD57387003706AF /* onboardingViewCell.xib */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		2B8686312ADCC618004D85F5 /* languageVC */ = {
+			isa = PBXGroup;
+			children = (
+				2B8686272AD809D4004D85F5 /* languageViewController.swift */,
+			);
+			path = languageVC;
+			sourceTree = "<group>";
+		};
+		2B8686322ADCC634004D85F5 /* categoriesVC */ = {
+			isa = PBXGroup;
+			children = (
+				2B8686292AD95D94004D85F5 /* CategoriesViewcontroller.swift */,
+				2B86862F2ADA1520004D85F5 /* categoriesDataFile.swift */,
+				2B86862B2AD95FC4004D85F5 /* CategoriesCollectionViewCell.swift */,
+				2B86862C2AD95FC4004D85F5 /* CategoriesCollectionViewCell.xib */,
+			);
+			path = categoriesVC;
+			sourceTree = "<group>";
+		};
+		2B86863B2AE2BAAF004D85F5 /* login&sign&otp */ = {
+			isa = PBXGroup;
+			children = (
+				2B8686332ADD6DAB004D85F5 /* loginViewController.swift */,
+				2B8686352ADD8226004D85F5 /* loginVC.swift */,
+				2B8686252AD80742004D85F5 /* signinViewController.swift */,
+				2B8686372ADE1BEB004D85F5 /* signinVC.swift */,
+				2B8686392ADEC35E004D85F5 /* OTPViewController.swift */,
+			);
+			path = "login&sign&otp";
+			sourceTree = "<group>";
+		};
+		2B8686442AE3AF60004D85F5 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				2B8686422AE36FF4004D85F5 /* dataFile.swift */,
+				2B86863E2AE364BE004D85F5 /* aboutusViewController.swift */,
+				2B86863C2AE2CE4B004D85F5 /* settingsViewController.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		2B9D1FE02AD56B3D003706AF = {
+			isa = PBXGroup;
+			children = (
+				2B9D1FEB2AD56B3D003706AF /* Lematinalproject */,
+				2B9D20052AD56B3E003706AF /* LematinalprojectTests */,
+				2B9D200F2AD56B3E003706AF /* LematinalprojectUITests */,
+				2B9D1FEA2AD56B3D003706AF /* Products */,
+				62F29F39CB86D12362259D6E /* Pods */,
+				5104CF2F2ABCBA0EEB0F553C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9D1FEA2AD56B3D003706AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D1FE92AD56B3D003706AF /* Lematinalproject.app */,
+				2B9D20022AD56B3E003706AF /* LematinalprojectTests.xctest */,
+				2B9D200C2AD56B3E003706AF /* LematinalprojectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9D1FEB2AD56B3D003706AF /* Lematinalproject */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D1FEC2AD56B3D003706AF /* AppDelegate.swift */,
+				2B9D1FEE2AD56B3D003706AF /* SceneDelegate.swift */,
+				2B9D1FF02AD56B3D003706AF /* ViewController.swift */,
+				2BC3C83B2B0883C30057C948 /* home */,
+				2B8686442AE3AF60004D85F5 /* setting */,
+				2B86863B2AE2BAAF004D85F5 /* login&sign&otp */,
+				2B8686322ADCC634004D85F5 /* categoriesVC */,
+				2B8686312ADCC618004D85F5 /* languageVC */,
+				2B8686242AD8024B004D85F5 /* onboarding */,
+				2B9D1FF22AD56B3D003706AF /* Main.storyboard */,
+				2B9D1FF82AD56B3E003706AF /* Assets.xcassets */,
+				2B9D1FFA2AD56B3E003706AF /* LaunchScreen.storyboard */,
+				2B9D1FFD2AD56B3E003706AF /* Info.plist */,
+				2B9D1FF52AD56B3D003706AF /* Lematinalproject.xcdatamodeld */,
+			);
+			path = Lematinalproject;
+			sourceTree = "<group>";
+		};
+		2B9D20052AD56B3E003706AF /* LematinalprojectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D20062AD56B3E003706AF /* LematinalprojectTests.swift */,
+			);
+			path = LematinalprojectTests;
+			sourceTree = "<group>";
+		};
+		2B9D200F2AD56B3E003706AF /* LematinalprojectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D20102AD56B3E003706AF /* LematinalprojectUITests.swift */,
+				2B9D20122AD56B3E003706AF /* LematinalprojectUITestsLaunchTests.swift */,
+			);
+			path = LematinalprojectUITests;
+			sourceTree = "<group>";
+		};
+		2BC3C83B2B0883C30057C948 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				2B5528E72AF91A7100154523 /* homeViewController.swift */,
+				2B5528E52AF9196600154523 /* home.storyboard */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		5104CF2F2ABCBA0EEB0F553C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */,
+				99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */,
+				685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F29F39CB86D12362259D6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */,
+				A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */,
+				55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */,
+				0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */,
+				8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */,
+				6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9D1FE82AD56B3D003706AF /* Lematinalproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9D20162AD56B3E003706AF /* Build configuration list for PBXNativeTarget "Lematinalproject" */;
+			buildPhases = (
+				D90EBE55D48DECA5AE127994 /* [CP] Check Pods Manifest.lock */,
+				2B9D1FE52AD56B3D003706AF /* Sources */,
+				2B9D1FE62AD56B3D003706AF /* Frameworks */,
+				2B9D1FE72AD56B3D003706AF /* Resources */,
+				511ED880AF852E6C02B63D32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lematinalproject;
+			productName = Lematinalproject;
+			productReference = 2B9D1FE92AD56B3D003706AF /* Lematinalproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B9D20012AD56B3E003706AF /* LematinalprojectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9D20192AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectTests" */;
+			buildPhases = (
+				3D14E51606A8D3F8AE647E6F /* [CP] Check Pods Manifest.lock */,
+				2B9D1FFE2AD56B3E003706AF /* Sources */,
+				2B9D1FFF2AD56B3E003706AF /* Frameworks */,
+				2B9D20002AD56B3E003706AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9D20042AD56B3E003706AF /* PBXTargetDependency */,
+			);
+			name = LematinalprojectTests;
+			productName = LematinalprojectTests;
+			productReference = 2B9D20022AD56B3E003706AF /* LematinalprojectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B9D200B2AD56B3E003706AF /* LematinalprojectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9D201C2AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectUITests" */;
+			buildPhases = (
+				1535852870DC963EB037DF64 /* [CP] Check Pods Manifest.lock */,
+				2B9D20082AD56B3E003706AF /* Sources */,
+				2B9D20092AD56B3E003706AF /* Frameworks */,
+				2B9D200A2AD56B3E003706AF /* Resources */,
+				FB0BBE705DA190A7DA36D1A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9D200E2AD56B3E003706AF /* PBXTargetDependency */,
+			);
+			name = LematinalprojectUITests;
+			productName = LematinalprojectUITests;
+			productReference = 2B9D200C2AD56B3E003706AF /* LematinalprojectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B9D1FE12AD56B3D003706AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2B9D1FE82AD56B3D003706AF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2B9D20012AD56B3E003706AF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2B9D1FE82AD56B3D003706AF;
+					};
+					2B9D200B2AD56B3E003706AF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2B9D1FE82AD56B3D003706AF;
+					};
+				};
+			};
+			buildConfigurationList = 2B9D1FE42AD56B3D003706AF /* Build configuration list for PBXProject "Lematinalproject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B9D1FE02AD56B3D003706AF;
+			productRefGroup = 2B9D1FEA2AD56B3D003706AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9D1FE82AD56B3D003706AF /* Lematinalproject */,
+				2B9D20012AD56B3E003706AF /* LematinalprojectTests */,
+				2B9D200B2AD56B3E003706AF /* LematinalprojectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9D1FE72AD56B3D003706AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9D1FFC2AD56B3E003706AF /* LaunchScreen.storyboard in Resources */,
+				2B5528E62AF9196600154523 /* home.storyboard in Resources */,
+				2B86862E2AD95FC4004D85F5 /* CategoriesCollectionViewCell.xib in Resources */,
+				2B9D20242AD57387003706AF /* onboardingViewCell.xib in Resources */,
+				2B9D1FF92AD56B3E003706AF /* Assets.xcassets in Resources */,
+				2B9D1FF42AD56B3D003706AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D20002AD56B3E003706AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D200A2AD56B3E003706AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1535852870DC963EB037DF64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lematinalproject-LematinalprojectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D14E51606A8D3F8AE647E6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LematinalprojectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511ED880AF852E6C02B63D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90EBE55D48DECA5AE127994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lematinalproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0BBE705DA190A7DA36D1A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9D1FE52AD56B3D003706AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B86863A2ADEC35E004D85F5 /* OTPViewController.swift in Sources */,
+				2B8686262AD80742004D85F5 /* signinViewController.swift in Sources */,
+				2B9D1FF12AD56B3D003706AF /* ViewController.swift in Sources */,
+				2B8686362ADD8226004D85F5 /* loginVC.swift in Sources */,
+				2B8686282AD809D5004D85F5 /* languageViewController.swift in Sources */,
+				2B9D20232AD57387003706AF /* onboardingViewCell.swift in Sources */,
+				2B86862D2AD95FC4004D85F5 /* CategoriesCollectionViewCell.swift in Sources */,
+				2B86863D2AE2CE4B004D85F5 /* settingsViewController.swift in Sources */,
+				2B5528E82AF91A7100154523 /* homeViewController.swift in Sources */,
+				2B8686382ADE1BEB004D85F5 /* signinVC.swift in Sources */,
+				2B8686302ADA1520004D85F5 /* categoriesDataFile.swift in Sources */,
+				2B86862A2AD95D94004D85F5 /* CategoriesViewcontroller.swift in Sources */,
+				2B8686432AE36FF4004D85F5 /* dataFile.swift in Sources */,
+				2B9D1FED2AD56B3D003706AF /* AppDelegate.swift in Sources */,
+				2B8686342ADD6DAB004D85F5 /* loginViewController.swift in Sources */,
+				2B9D20202AD5705C003706AF /* onBoardingVC.swift in Sources */,
+				2B9D1FEF2AD56B3D003706AF /* SceneDelegate.swift in Sources */,
+				2B86863F2AE364BE004D85F5 /* aboutusViewController.swift in Sources */,
+				2B9D1FF72AD56B3D003706AF /* Lematinalproject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D1FFE2AD56B3E003706AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9D20072AD56B3E003706AF /* LematinalprojectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9D20082AD56B3E003706AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9D20132AD56B3E003706AF /* LematinalprojectUITestsLaunchTests.swift in Sources */,
+				2B9D20112AD56B3E003706AF /* LematinalprojectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9D20042AD56B3E003706AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9D1FE82AD56B3D003706AF /* Lematinalproject */;
+			targetProxy = 2B9D20032AD56B3E003706AF /* PBXContainerItemProxy */;
+		};
+		2B9D200E2AD56B3E003706AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9D1FE82AD56B3D003706AF /* Lematinalproject */;
+			targetProxy = 2B9D200D2AD56B3E003706AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B9D1FF22AD56B3D003706AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9D1FF32AD56B3D003706AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B9D1FFA2AD56B3E003706AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9D1FFB2AD56B3E003706AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9D20142AD56B3E003706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9D20152AD56B3E003706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9D20172AD56B3E003706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lematinalproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.Lematinalproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9D20182AD56B3E003706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lematinalproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.Lematinalproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B9D201A2AD56B3E003706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.LematinalprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lematinalproject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lematinalproject";
+			};
+			name = Debug;
+		};
+		2B9D201B2AD56B3E003706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.LematinalprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lematinalproject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lematinalproject";
+			};
+			name = Release;
+		};
+		2B9D201D2AD56B3E003706AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.LematinalprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lematinalproject;
+			};
+			name = Debug;
+		};
+		2B9D201E2AD56B3E003706AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.LematinalprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lematinalproject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9D1FE42AD56B3D003706AF /* Build configuration list for PBXProject "Lematinalproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9D20142AD56B3E003706AF /* Debug */,
+				2B9D20152AD56B3E003706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9D20162AD56B3E003706AF /* Build configuration list for PBXNativeTarget "Lematinalproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9D20172AD56B3E003706AF /* Debug */,
+				2B9D20182AD56B3E003706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9D20192AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9D201A2AD56B3E003706AF /* Debug */,
+				2B9D201B2AD56B3E003706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9D201C2AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9D201D2AD56B3E003706AF /* Debug */,
+				2B9D201E2AD56B3E003706AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B9D1FF52AD56B3D003706AF /* Lematinalproject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B9D1FF62AD56B3D003706AF /* Lematinalproject.xcdatamodel */,
+			);
+			currentVersion = 2B9D1FF62AD56B3D003706AF /* Lematinalproject.xcdatamodel */;
+			path = Lematinalproject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B9D1FE12AD56B3D003706AF /* Project object */;
+}

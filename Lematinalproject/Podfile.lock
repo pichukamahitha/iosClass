@@ -1,0 +1,26 @@
+PODS:
+  - DialCountries (0.1.3)
+  - IQKeyboardManager (6.5.16)
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
+
+DEPENDENCIES:
+  - DialCountries
+  - IQKeyboardManager
+  - SDWebImage (~> 5.18)
+
+SPEC REPOS:
+  trunk:
+    - DialCountries
+    - IQKeyboardManager
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  DialCountries: 098cb20d88eba888dcc0474060694b545fb36ce1
+  IQKeyboardManager: 024b54d7dcb765c5bc99882cb4d5ea24a8cb7c3c
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+
+PODFILE CHECKSUM: e160a0a8fe7df2a93c4dd91bee1fb98690fb4b25
+
+COCOAPODS: 1.13.0
