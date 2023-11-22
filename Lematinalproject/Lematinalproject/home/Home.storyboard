@@ -128,7 +128,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="breakingnewsLabel" destination="3n4-eS-46t" id="hUP-hL-5U4"/>
+                        <outlet property="breakingnewsLabel" destination="2Sx-Ck-pgi" id="R1m-rj-jao"/>
                         <outlet property="breakingnewsView" destination="9Dl-CO-UU7" id="5om-q1-xsr"/>
                         <outlet property="newsLabel" destination="aB9-eN-yyc" id="2NL-9s-ve5"/>
                         <outlet property="newsView" destination="3n4-eS-46t" id="HFw-G7-KqY"/>

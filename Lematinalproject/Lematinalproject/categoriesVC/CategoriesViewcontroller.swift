@@ -25,7 +25,7 @@ class CategoriesViewcontroller: UIViewController {
         self.categoriesCollectionView.delegate = self
         self.categoriesCollectionView.dataSource = self
         self.xibregister()
-        self.categoriesDta(url: "https://testen.lematinal.media/wp-json/api/en/category-list")
+        self.categoriesDta(url: "\(globalclass.shared.baseurl)\(categorylist)")
         self.loadImage(urlstr: "https://testen.lematinal.media/wp-content/uploads/2021/11/Arts.png")
     }
     func xibregister(){

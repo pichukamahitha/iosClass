@@ -48,6 +48,8 @@
 		5940C5B59F75F9C33188E8B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */; };
 		D86984F02B08BE1F001F8DDA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86984EF2B08BE1F001F8DDA /* Home.storyboard */; };
 		D86984F32B08C13A001F8DDA /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984F22B08C13A001F8DDA /* TabbarVC.swift */; };
+		D86984FD2B0D92ED001F8DDA /* singelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984FC2B0D92ED001F8DDA /* singelton.swift */; };
+		D86985002B0D9504001F8DDA /* urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984FF2B0D9504001F8DDA /* urls.swift */; };
 		E24E46A9D25CD77427B24B1B /* Pods_LematinalprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */; };
 		EB4333FF6C80183D2FA6021D /* Pods_Lematinalproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */; };
 /* End PBXBuildFile section */
@@ -122,6 +124,8 @@
 		A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.release.xcconfig"; sourceTree = "<group>"; };
 		D86984EF2B08BE1F001F8DDA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D86984F22B08C13A001F8DDA /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		D86984FC2B0D92ED001F8DDA /* singelton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singelton.swift; sourceTree = "<group>"; };
+		D86984FF2B0D9504001F8DDA /* urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urls.swift; sourceTree = "<group>"; };
 		DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,6 +260,8 @@
 		2B9D1FEB2AD56B3D003706AF /* Lematinalproject */ = {
 			isa = PBXGroup;
 			children = (
+				D86984FE2B0D94EE001F8DDA /* constants */,
+				D86984FB2B0D929B001F8DDA /* Extensions&wrappers */,
 				D86984F62B08C53C001F8DDA /* Delegation */,
 				2B9D1FF02AD56B3D003706AF /* ViewController.swift */,
 				2B0D8D2D2B08E06400F111A2 /* Feed */,
@@ -364,6 +370,22 @@
 			path = Delegation;
 			sourceTree = "<group>";
 		};
+		D86984FB2B0D929B001F8DDA /* Extensions&wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				D86984FC2B0D92ED001F8DDA /* singelton.swift */,
+			);
+			path = "Extensions&wrappers";
+			sourceTree = "<group>";
+		};
+		D86984FE2B0D94EE001F8DDA /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				D86984FF2B0D9504001F8DDA /* urls.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -375,7 +397,7 @@
 				2B9D1FE52AD56B3D003706AF /* Sources */,
 				2B9D1FE62AD56B3D003706AF /* Frameworks */,
 				2B9D1FE72AD56B3D003706AF /* Resources */,
-				511ED880AF852E6C02B63D32 /* [CP] Embed Pods Frameworks */,
+				A42353A67A30A79C65883F81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,7 +435,7 @@
 				2B9D20082AD56B3E003706AF /* Sources */,
 				2B9D20092AD56B3E003706AF /* Frameworks */,
 				2B9D200A2AD56B3E003706AF /* Resources */,
-				FB0BBE705DA190A7DA36D1A8 /* [CP] Embed Pods Frameworks */,
+				61318543D0CEC85AF3202C73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -548,7 +570,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		511ED880AF852E6C02B63D32 /* [CP] Embed Pods Frameworks */ = {
+		61318543D0CEC85AF3202C73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42353A67A30A79C65883F81 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -587,23 +626,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB0BBE705DA190A7DA36D1A8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -614,6 +636,7 @@
 				2B86863A2ADEC35E004D85F5 /* OTPViewController.swift in Sources */,
 				2B8686262AD80742004D85F5 /* signinViewController.swift in Sources */,
 				2B9D1FF12AD56B3D003706AF /* ViewController.swift in Sources */,
+				D86985002B0D9504001F8DDA /* urls.swift in Sources */,
 				2B8686362ADD8226004D85F5 /* loginVC.swift in Sources */,
 				2B8686282AD809D5004D85F5 /* languageViewController.swift in Sources */,
 				2B9D20232AD57387003706AF /* onboardingViewCell.swift in Sources */,
@@ -621,6 +644,7 @@
 				2B86863D2AE2CE4B004D85F5 /* settingsViewController.swift in Sources */,
 				2B0D8D212B08DFEB00F111A2 /* feedViewController.swift in Sources */,
 				2B5528E82AF91A7100154523 /* homeViewController.swift in Sources */,
+				D86984FD2B0D92ED001F8DDA /* singelton.swift in Sources */,
 				2B8686382ADE1BEB004D85F5 /* signinVC.swift in Sources */,
 				2B0D8D302B09A9FD00F111A2 /* breakingnewsModel.swift in Sources */,
 				2B8686302ADA1520004D85F5 /* categoriesDataFile.swift in Sources */,

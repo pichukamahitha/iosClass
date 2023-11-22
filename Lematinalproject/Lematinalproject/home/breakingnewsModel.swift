@@ -11,7 +11,7 @@ struct Breakingnews : Codable {
     let status_code : Int?
     let message : String?
     let api : String?
-    let results : [BResults]?
+    let results : [breakingnewsResult]?
     enum CodingKeys: String, CodingKey {
         case status = "status"
         case status_code = "status_code"
@@ -25,10 +25,10 @@ struct Breakingnews : Codable {
         status_code = try values.decodeIfPresent(Int.self, forKey: .status_code)
         message = try values.decodeIfPresent(String.self, forKey: .message)
         api = try values.decodeIfPresent(String.self, forKey: .api)
-        results = try values.decodeIfPresent([BResults].self, forKey: .results)
+        results = try values.decodeIfPresent([breakingnewsResult].self, forKey: .results)
     }
 }
-struct BResults : Codable {
+struct breakingnewsResult : Codable {
     let title : String?
     let iD : Int?
     enum CodingKeys: String, CodingKey {
