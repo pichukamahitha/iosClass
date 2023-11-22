@@ -8,7 +8,13 @@
 import UIKit
 
 class homeViewController: UIViewController {
-
+    var newsdata : Breakingnews?
+    @IBOutlet weak var breakingnewsView: UIView!
+    @IBOutlet weak var breakingnewsLabel: UILabel!
+    @IBOutlet weak var newsView: UIView!
+    
+    @IBOutlet weak var newsLabel: UILabel!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
     }
