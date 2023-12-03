@@ -22,13 +22,13 @@ class CategoriesViewcontroller: UIViewController {
         super.viewDidLoad()
         categoriesCollectionView.frame = .zero
         categoriesCollectionView.frame = view.bounds
-        self.categoriesCollectionView.delegate = self
-        self.categoriesCollectionView.dataSource = self
         self.xibregister()
         self.categoriesDta(url: "\(globalclass.shared.baseurl)\(categorylist)")
         self.loadImage(urlstr: "https://testen.lematinal.media/wp-content/uploads/2021/11/Arts.png")
     }
     func xibregister(){
+        self.categoriesCollectionView.delegate = self
+        self.categoriesCollectionView.dataSource = self
         categoriesCollectionView.register(UINib(nibName: "CategoriesCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CategoriesCollectionViewCell")
     }
     func categoriesDta(url :String){
@@ -69,20 +69,8 @@ extension CategoriesViewcontroller:UICollectionViewDelegate,UICollectionViewData
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = categoriesCollectionView.dequeueReusableCell(withReuseIdentifier: "CategoriesCollectionViewCell", for: indexPath)as! CategoriesCollectionViewCell
-        cell.categoriesLabel.text = getdata?.results?[indexPath.row].title
-        let urlstring = getdata?.results?[indexPath.row].image ?? ""
-        cell.categoriesImages.sd_setImage(with: URL(string: urlstring), placeholderImage: UIImage(named: "bi_apple"))
-        
-        if selectiteamindex.contains(getdata?.results?[indexPath.row].iD ?? 0) {
-        cell.blurView.alpha = CGFloat(0.7)
-        cell.selectButton.isSelected = true
-        cell.selectButton.setImage(UIImage(named: "butttonclick"), for: .normal)
-                }
-        else {
-        cell.blurView.alpha = CGFloat(0)
-        cell.selectButton.isSelected = false
-        cell.selectButton.setImage(UIImage(named: "butttonunclick"), for: .normal)
-                }
+        let category = getdata?.results?[indexPath.row]
+        cell.configureCell(category: category!, itemSelected: selectiteamindex.contains(category?.iD ?? 0) )
         return cell
     }
     

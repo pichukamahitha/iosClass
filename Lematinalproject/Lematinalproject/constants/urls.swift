@@ -14,3 +14,10 @@ enum endpoint : String{
 
 let categorylist = "category-list"
 let breakingNews = "breaking"
+let devbreaking = "breaking"
+let featureddata = "featured?page_no=2"
+let treandingtageng = "trending-tags/"
+let trendtagfr = "trendingtagfr"
+let latestData = "latest-articles?page_no=4"
+let trendingdata = "trending?page_no=2"
+let searchingData = "search-post?search-keyword=m&page_no=3"

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="featureTVC" rowHeight="338" id="KGk-i7-Jjw" customClass="featureTVC" customModule="Lematinalproject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="540" height="338"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="540" height="338"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feature" translatesAutoresizingMaskIntoConstraints="NO" id="6js-cL-yhx">
+                        <rect key="frame" x="30" y="30" width="480" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="X2K-B5-Aka"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zu1-Ue-edv" userLabel="detailsView">
+                        <rect key="frame" x="20" y="180" width="500" height="120"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55i-yw-8JA">
+                                <rect key="frame" x="10" y="4.9999999999999991" width="360" height="15.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpW-ku-j3H">
+                                <rect key="frame" x="10" y="30.666666666666657" width="470" height="36"/>
+                                <string key="text">IMF: The Mauritian Rupee is overvalued
+by 30-40% Rupee is overvalued .....</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by author name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQN-Jv-FIp">
+                                <rect key="frame" x="10" y="76.666666666666686" width="440" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJZ-8k-Izr">
+                                <rect key="frame" x="470" y="5" width="20" height="20"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="BDI-9h-gqN"/>
+                                    <constraint firstAttribute="height" constant="20" id="V8c-2k-ddb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="SaveNews"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="55i-yw-8JA" firstAttribute="top" secondItem="zu1-Ue-edv" secondAttribute="top" constant="5" id="5FT-dR-rrc"/>
+                            <constraint firstAttribute="trailing" secondItem="hpW-ku-j3H" secondAttribute="trailing" constant="20" id="7C4-hM-bs8"/>
+                            <constraint firstItem="hpW-ku-j3H" firstAttribute="top" secondItem="55i-yw-8JA" secondAttribute="bottom" constant="10" id="GvA-QV-gBm"/>
+                            <constraint firstItem="qQN-Jv-FIp" firstAttribute="top" secondItem="hpW-ku-j3H" secondAttribute="bottom" constant="10" id="Njm-Ps-PyU"/>
+                            <constraint firstItem="55i-yw-8JA" firstAttribute="leading" secondItem="zu1-Ue-edv" secondAttribute="leading" constant="10" id="Uju-cg-lkU"/>
+                            <constraint firstItem="hpW-ku-j3H" firstAttribute="leading" secondItem="zu1-Ue-edv" secondAttribute="leading" constant="10" id="Yda-WB-jRN"/>
+                            <constraint firstItem="ZJZ-8k-Izr" firstAttribute="leading" secondItem="55i-yw-8JA" secondAttribute="trailing" constant="100" id="hcZ-y4-zXu"/>
+                            <constraint firstAttribute="height" constant="120" id="hqo-qm-EgU"/>
+                            <constraint firstItem="ZJZ-8k-Izr" firstAttribute="top" secondItem="zu1-Ue-edv" secondAttribute="top" constant="5" id="k6h-gb-rv2"/>
+                            <constraint firstAttribute="trailing" secondItem="ZJZ-8k-Izr" secondAttribute="trailing" constant="10" id="uWA-iu-i8k"/>
+                            <constraint firstAttribute="trailing" secondItem="qQN-Jv-FIp" secondAttribute="trailing" constant="50" id="uid-qX-Wji"/>
+                            <constraint firstItem="qQN-Jv-FIp" firstAttribute="leading" secondItem="zu1-Ue-edv" secondAttribute="leading" constant="10" id="zyY-lK-NvO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="zu1-Ue-edv" secondAttribute="trailing" constant="20" id="00X-tD-kxO"/>
+                    <constraint firstAttribute="bottom" secondItem="zu1-Ue-edv" secondAttribute="bottom" constant="4" id="AAB-TB-m2t"/>
+                    <constraint firstItem="6js-cL-yhx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="QH9-iC-gMq"/>
+                    <constraint firstAttribute="trailing" secondItem="6js-cL-yhx" secondAttribute="trailing" constant="30" id="WYn-DS-vH0"/>
+                    <constraint firstItem="zu1-Ue-edv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="bST-J0-Zqj"/>
+                    <constraint firstItem="zu1-Ue-edv" firstAttribute="top" secondItem="6js-cL-yhx" secondAttribute="bottom" id="jkP-sp-LG4"/>
+                    <constraint firstItem="6js-cL-yhx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="mYJ-BO-fmV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="authorLabel" destination="qQN-Jv-FIp" id="GEz-lf-Dws"/>
+                <outlet property="categoryLabel" destination="55i-yw-8JA" id="GKO-L0-gBF"/>
+                <outlet property="detailsView" destination="zu1-Ue-edv" id="Ade-Np-iGx"/>
+                <outlet property="featureImg" destination="6js-cL-yhx" id="rCB-8R-Kg3"/>
+                <outlet property="imfLabel" destination="hpW-ku-j3H" id="U1Q-kb-eug"/>
+                <outlet property="saveBtn" destination="ZJZ-8k-Izr" id="jiJ-y1-Il9"/>
+            </connections>
+            <point key="canvasLocation" x="230.53435114503816" y="102.11267605633803"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SaveNews" width="18.333333969116211" height="23.333333969116211"/>
+        <image name="feature" width="331.33334350585938" height="120.33333587646484"/>
+    </resources>
+</document>
