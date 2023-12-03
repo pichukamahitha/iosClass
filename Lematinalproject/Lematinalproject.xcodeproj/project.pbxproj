@@ -57,13 +57,13 @@
 		2BD8488F2B14E0B800EDB694 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD8488D2B14E0B800EDB694 /* CollectionViewCell.xib */; };
 		2BD848922B15C7B400EDB694 /* latestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD848902B15C7B400EDB694 /* latestTableViewCell.swift */; };
 		2BD848932B15C7B400EDB694 /* latestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD848912B15C7B400EDB694 /* latestTableViewCell.xib */; };
-		5940C5B59F75F9C33188E8B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */; };
+		397EAA111C386D844FC43AC7 /* Pods_LematinalprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3283FFEA88F27BD0E54A1620 /* Pods_LematinalprojectTests.framework */; };
+		409D0767F428CB36F8CE55B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3852F195762806AB385E8C /* Pods_Lematinalproject_LematinalprojectUITests.framework */; };
+		74219B76C7B55A01C7C2C7CD /* Pods_Lematinalproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBD56B461458BE15C77D36C /* Pods_Lematinalproject.framework */; };
 		D86984F02B08BE1F001F8DDA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86984EF2B08BE1F001F8DDA /* Home.storyboard */; };
 		D86984F32B08C13A001F8DDA /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984F22B08C13A001F8DDA /* TabbarVC.swift */; };
 		D86984FD2B0D92ED001F8DDA /* singelton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984FC2B0D92ED001F8DDA /* singelton.swift */; };
 		D86985002B0D9504001F8DDA /* urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86984FF2B0D9504001F8DDA /* urls.swift */; };
-		E24E46A9D25CD77427B24B1B /* Pods_LematinalprojectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */; };
-		EB4333FF6C80183D2FA6021D /* Pods_Lematinalproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +84,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FD7C72A600659FBEBE9F787 /* Pods-LematinalprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.release.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.release.xcconfig"; sourceTree = "<group>"; };
+		280467585F1A5F671C4BC3A6 /* Pods-Lematinalproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.release.xcconfig"; sourceTree = "<group>"; };
+		2A3852F195762806AB385E8C /* Pods_Lematinalproject_LematinalprojectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject_LematinalprojectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0D8D1B2B08DE2700F111A2 /* search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = search.storyboard; sourceTree = "<group>"; };
 		2B0D8D1D2B08DE4C00F111A2 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
 		2B0D8D202B08DFEB00F111A2 /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
@@ -140,17 +141,16 @@
 		2BD8488D2B14E0B800EDB694 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		2BD848902B15C7B400EDB694 /* latestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latestTableViewCell.swift; sourceTree = "<group>"; };
 		2BD848912B15C7B400EDB694 /* latestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = latestTableViewCell.xib; sourceTree = "<group>"; };
-		55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LematinalprojectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.release.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.release.xcconfig"; sourceTree = "<group>"; };
-		8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject_LematinalprojectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.release.xcconfig"; sourceTree = "<group>"; };
+		3283FFEA88F27BD0E54A1620 /* Pods_LematinalprojectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LematinalprojectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D9670CB8654E526BDA328D /* Pods-LematinalprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LematinalprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-LematinalprojectTests/Pods-LematinalprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E0373D61D3FA37941BF3B1A /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D86984EF2B08BE1F001F8DDA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D86984F22B08C13A001F8DDA /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		D86984FC2B0D92ED001F8DDA /* singelton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singelton.swift; sourceTree = "<group>"; };
 		D86984FF2B0D9504001F8DDA /* urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urls.swift; sourceTree = "<group>"; };
-		DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.debug.xcconfig"; sourceTree = "<group>"; };
+		E020B3405238A24F2BFF29A5 /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; path = "Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9D440748A9ED5258AB41CDC /* Pods-Lematinalproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lematinalproject.debug.xcconfig"; path = "Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBD56B461458BE15C77D36C /* Pods_Lematinalproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lematinalproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4333FF6C80183D2FA6021D /* Pods_Lematinalproject.framework in Frameworks */,
+				74219B76C7B55A01C7C2C7CD /* Pods_Lematinalproject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24E46A9D25CD77427B24B1B /* Pods_LematinalprojectTests.framework in Frameworks */,
+				397EAA111C386D844FC43AC7 /* Pods_LematinalprojectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,13 +174,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5940C5B59F75F9C33188E8B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */,
+				409D0767F428CB36F8CE55B6 /* Pods_Lematinalproject_LematinalprojectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F58CB18C9AF2930F796717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD56B461458BE15C77D36C /* Pods_Lematinalproject.framework */,
+				2A3852F195762806AB385E8C /* Pods_Lematinalproject_LematinalprojectUITests.framework */,
+				3283FFEA88F27BD0E54A1620 /* Pods_LematinalprojectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2B0D8D1F2B08DF0100F111A2 /* Newsearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +282,7 @@
 				2B9D200F2AD56B3E003706AF /* LematinalprojectUITests */,
 				2B9D1FEA2AD56B3D003706AF /* Products */,
 				62F29F39CB86D12362259D6E /* Pods */,
-				5104CF2F2ABCBA0EEB0F553C /* Frameworks */,
+				06F58CB18C9AF2930F796717 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,25 +353,15 @@
 			path = home;
 			sourceTree = "<group>";
 		};
-		5104CF2F2ABCBA0EEB0F553C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				074958140CCF7D66CA932BD2 /* Pods_Lematinalproject.framework */,
-				99CDDD502C98BA44D038189F /* Pods_Lematinalproject_LematinalprojectUITests.framework */,
-				685D467C24D3986329CEAC58 /* Pods_LematinalprojectTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		62F29F39CB86D12362259D6E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */,
-				A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */,
-				55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */,
-				0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */,
-				8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */,
-				6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */,
+				E9D440748A9ED5258AB41CDC /* Pods-Lematinalproject.debug.xcconfig */,
+				280467585F1A5F671C4BC3A6 /* Pods-Lematinalproject.release.xcconfig */,
+				8E0373D61D3FA37941BF3B1A /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */,
+				E020B3405238A24F2BFF29A5 /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */,
+				42D9670CB8654E526BDA328D /* Pods-LematinalprojectTests.debug.xcconfig */,
+				0FD7C72A600659FBEBE9F787 /* Pods-LematinalprojectTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -429,11 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9D20162AD56B3E003706AF /* Build configuration list for PBXNativeTarget "Lematinalproject" */;
 			buildPhases = (
-				D90EBE55D48DECA5AE127994 /* [CP] Check Pods Manifest.lock */,
+				80991FFCA96CA42A5C446FEB /* [CP] Check Pods Manifest.lock */,
 				2B9D1FE52AD56B3D003706AF /* Sources */,
 				2B9D1FE62AD56B3D003706AF /* Frameworks */,
 				2B9D1FE72AD56B3D003706AF /* Resources */,
-				A42353A67A30A79C65883F81 /* [CP] Embed Pods Frameworks */,
+				08D0A21F6E9F5453964DCE30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -448,7 +448,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9D20192AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectTests" */;
 			buildPhases = (
-				3D14E51606A8D3F8AE647E6F /* [CP] Check Pods Manifest.lock */,
+				1527A9B5103A6E7D3907B3AB /* [CP] Check Pods Manifest.lock */,
 				2B9D1FFE2AD56B3E003706AF /* Sources */,
 				2B9D1FFF2AD56B3E003706AF /* Frameworks */,
 				2B9D20002AD56B3E003706AF /* Resources */,
@@ -467,11 +467,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B9D201C2AD56B3E003706AF /* Build configuration list for PBXNativeTarget "LematinalprojectUITests" */;
 			buildPhases = (
-				1535852870DC963EB037DF64 /* [CP] Check Pods Manifest.lock */,
+				4910F3F54A30AFC1E5058707 /* [CP] Check Pods Manifest.lock */,
 				2B9D20082AD56B3E003706AF /* Sources */,
 				2B9D20092AD56B3E003706AF /* Frameworks */,
 				2B9D200A2AD56B3E003706AF /* Resources */,
-				61318543D0CEC85AF3202C73 /* [CP] Embed Pods Frameworks */,
+				04C4BDE2BC480DD65988965D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -567,29 +567,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1535852870DC963EB037DF64 /* [CP] Check Pods Manifest.lock */ = {
+		04C4BDE2BC480DD65988965D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lematinalproject-LematinalprojectUITests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3D14E51606A8D3F8AE647E6F /* [CP] Check Pods Manifest.lock */ = {
+		08D0A21F6E9F5453964DCE30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1527A9B5103A6E7D3907B3AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,41 +623,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61318543D0CEC85AF3202C73 /* [CP] Embed Pods Frameworks */ = {
+		4910F3F54A30AFC1E5058707 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lematinalproject-LematinalprojectUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject-LematinalprojectUITests/Pods-Lematinalproject-LematinalprojectUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A42353A67A30A79C65883F81 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lematinalproject/Pods-Lematinalproject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D90EBE55D48DECA5AE127994 /* [CP] Check Pods Manifest.lock */ = {
+		80991FFCA96CA42A5C446FEB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -880,7 +880,7 @@
 		};
 		2B9D20172AD56B3E003706AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2626A0382DA46A5CCCFA4A /* Pods-Lematinalproject.debug.xcconfig */;
+			baseConfigurationReference = E9D440748A9ED5258AB41CDC /* Pods-Lematinalproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -908,7 +908,7 @@
 		};
 		2B9D20182AD56B3E003706AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A4C964C0CB9DAEDAFA39CF /* Pods-Lematinalproject.release.xcconfig */;
+			baseConfigurationReference = 280467585F1A5F671C4BC3A6 /* Pods-Lematinalproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -936,7 +936,7 @@
 		};
 		2B9D201A2AD56B3E003706AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8155183F10407351D56641FD /* Pods-LematinalprojectTests.debug.xcconfig */;
+			baseConfigurationReference = 42D9670CB8654E526BDA328D /* Pods-LematinalprojectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -956,7 +956,7 @@
 		};
 		2B9D201B2AD56B3E003706AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B4AE6CD5EE4E21837093FC8 /* Pods-LematinalprojectTests.release.xcconfig */;
+			baseConfigurationReference = 0FD7C72A600659FBEBE9F787 /* Pods-LematinalprojectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -976,7 +976,7 @@
 		};
 		2B9D201D2AD56B3E003706AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CC85BB388FA6B8E57D6C1B /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */;
+			baseConfigurationReference = 8E0373D61D3FA37941BF3B1A /* Pods-Lematinalproject-LematinalprojectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -994,7 +994,7 @@
 		};
 		2B9D201E2AD56B3E003706AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0759FDD9755645F24711579A /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */;
+			baseConfigurationReference = E020B3405238A24F2BFF29A5 /* Pods-Lematinalproject-LematinalprojectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
