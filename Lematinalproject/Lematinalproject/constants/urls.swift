@@ -21,3 +21,5 @@ let trendtagfr = "trendingtagfr"
 let latestData = "latest-articles?page_no=4"
 let trendingdata = "trending?page_no=2"
 let searchingData = "search-post?search-keyword=m&page_no=3"
+let categoriesData = "category/details/156?page_no=3"
+

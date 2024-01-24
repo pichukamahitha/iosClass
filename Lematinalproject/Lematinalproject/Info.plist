@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>englishbaseUrl</key>
-	<string>https://deven.lematinal.media/wp-json/api/en/</string>
-	<key>trendingtageng</key>
-	<string>https://devusr.lematinal.media/wp-json/api/en/</string>
-	<key>trendingtagfr</key>
-	<string>https://devusr.lematinal.media/wp-json/api/fr/</string>
-	<key>latestdataurl</key>
-	<string>https://testfr.lematinal.media/wp-json/api/fr/</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -29,5 +21,13 @@
 			</array>
 		</dict>
 	</dict>
+	<key>englishbaseUrl</key>
+	<string>https://deven.lematinal.media/wp-json/api/en/</string>
+	<key>latestdataurl</key>
+	<string>https://testfr.lematinal.media/wp-json/api/fr/</string>
+	<key>trendingtageng</key>
+	<string>https://devusr.lematinal.media/wp-json/api/en/</string>
+	<key>trendingtagfr</key>
+	<string>https://devusr.lematinal.media/wp-json/api/fr/</string>
 </dict>
 </plist>

@@ -19,9 +19,7 @@ class searchpageViewmodel{
                 DispatchQueue.main.async {
                     self.searchviewcontroller?.searchTableview.reloadData()
                 }
-                
             }
-            
         }
         dataTask.resume()
     }

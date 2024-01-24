@@ -9,7 +9,7 @@ import UIKit
 
 class homepageViewmodel {
     weak var viewcontroller : homeViewController?
-    func breakingnews(){
+    func breakingNews(){
         let urL = URL(string: "\(globalclass.shared.baseurl)\(devbreaking)")!
         let request = URLRequest(url: urL)
         let session = URLSession(configuration: URLSessionConfiguration.default)
@@ -18,8 +18,9 @@ class homepageViewmodel {
                 let value = try? JSONDecoder().decode(Breakingnews?.self,from: userdata!)
                 DispatchQueue.main.async { [self] in
 //                    viewcontroller?.setupBreakingNews(news: (value?.results)!)
-                        viewcontroller?.setupBreakingNews(news: value?.results ?? [])
-                        print("printvalues\(String(describing: value?.results))")
+
+                    viewcontroller?.setupBreakingNews(news: value?.results ?? [] )
+                    getfeaturedata()
                 }
             }
             catch{
@@ -35,13 +36,10 @@ class homepageViewmodel {
             do{
                 self.viewcontroller?.newsarticledata = try? JSONDecoder().decode(feature.self, from: userdata!)
                 DispatchQueue.main.async {
-//                    self.viewcontroller?.homeactivity.stopAnimating()
-                    self.viewcontroller?.homeactivity.stopAnimating()
-                    self.viewcontroller?.homeactivity.isHidden = true
-                   
-
+                    self.viewcontroller?.hideloadview()
                     self.viewcontroller?.featuretableview.reloadData()
-//                    print(self.viewcontroller?.featuredata)
+                    self.gettrendingtags()
+
                 }
             }
             catch{
@@ -58,8 +56,10 @@ class homepageViewmodel {
             do{
                 self.viewcontroller?.trendingtagdata = try? JSONDecoder().decode(trendingtagengmodel.self, from: userdata!)
                 DispatchQueue.main.async {
+                    self.viewcontroller?.hideloadview()
                     self.viewcontroller?.trendingCollectionView.reloadData()
-                    print(self.viewcontroller?.trendingtagdata?.results?[0].tag)
+//                    print(self.viewcontroller?.trendingtagdata?.results?[0].tag)
+                    self.gettrendingdata()
                 }
             }
             catch{
@@ -77,9 +77,9 @@ class homepageViewmodel {
             do{
                 self.viewcontroller?.newsarticledata = try? JSONDecoder().decode(feature.self, from: userdata!)
                 DispatchQueue.main.async {
-                    self.viewcontroller?.homeactivity.stopAnimating()
-                    self.viewcontroller?.homeactivity.isHidden = true
+                    self.viewcontroller?.hideloadview()
                     self.viewcontroller?.featuretableview.reloadData()
+                    self.getlatestdata()
                 }
             }
             catch{
@@ -95,9 +95,9 @@ class homepageViewmodel {
             do{
                 self.viewcontroller?.newsarticledata = try? JSONDecoder().decode(feature.self, from: userdata!)
                 DispatchQueue.main.async {
-                    self.viewcontroller?.homeactivity.stopAnimating()
-                    self.viewcontroller?.homeactivity.isHidden = true
+                    self.viewcontroller?.hideloadview()
                     self.viewcontroller?.featuretableview.reloadData()
+                    self.getcategoriesdata()
                 }
             }
             catch{
@@ -105,5 +105,23 @@ class homepageViewmodel {
         }
         datatask.resume()
 
+    }
+    func getcategoriesdata(){
+        let urL = URL(string: "\(globalclass.shared.baseurl)\(categorylist)")!
+        let request = URLRequest(url: urL)
+        let session = URLSession(configuration: URLSessionConfiguration.default)
+        let datatask = session.dataTask(with: request){userdata, userresponse, err in
+            do{
+                self.viewcontroller?.articelcategoriedata = try? JSONDecoder().decode(categoriesmodel?.self, from: userdata!)
+                DispatchQueue.main.async {
+                    self.viewcontroller?.hideloadview()
+                    self.viewcontroller?.articlesCollectionview.reloadData()
+//                    print(self.viewcontroller?.articelcategoriedata)
+                }
+            }
+            catch{
+            }
+        }
+        datatask.resume()
     }
 }

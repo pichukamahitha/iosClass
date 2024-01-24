@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct categoriesData : Codable {
+struct categoriesmodel : Codable {
     let status : String?
     let status_code : Int?
     let message : String?

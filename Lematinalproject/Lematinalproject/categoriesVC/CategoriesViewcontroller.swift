@@ -9,7 +9,7 @@ import UIKit
 import SDWebImage
 
 class CategoriesViewcontroller: UIViewController {
-    var getdata : categoriesData?
+    var getdata : categoriesmodel?
     private var selectionLimit = 0
     var selectiteamindex : [Int] = []
     @IBOutlet weak var categoriesView: UIView!
@@ -37,7 +37,7 @@ class CategoriesViewcontroller: UIViewController {
         let session = URLSession(configuration: URLSessionConfiguration.default)
         let datatask = session.dataTask(with: request){userdata, userresponse, err in
             do {
-                self.getdata = try JSONDecoder().decode(categoriesData?.self,from: userdata!)
+                self.getdata = try JSONDecoder().decode(categoriesmodel?.self,from: userdata!)
                 DispatchQueue.main.async { [self] in
                     self.categoriesCollectionView.reloadData()
                 }
@@ -54,7 +54,13 @@ class CategoriesViewcontroller: UIViewController {
             }
         return Data()
     }
+    
+    
+    @IBAction func mContinueBtnClick(_ sender: Any) {
+        print("fdbfbvhfdvfdhv")
+        
     }
+}
 extension UIView {
     func makeBorder(){
         self.layer.cornerRadius = 5.0
@@ -73,7 +79,6 @@ extension CategoriesViewcontroller:UICollectionViewDelegate,UICollectionViewData
         cell.configureCell(category: category!, itemSelected: selectiteamindex.contains(category?.iD ?? 0) )
         return cell
     }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: ((categoriesCollectionView.frame.size.width / 3) - 5),
                       height:130)
@@ -96,7 +101,6 @@ extension CategoriesViewcontroller:UICollectionViewDelegate,UICollectionViewData
             self.present(alert,animated: true,completion: nil)
             return
 }
-        
         if selectiteamindex.contains(selectedId){
             for i in 0 ... (selectiteamindex.count - 1){
                 if selectiteamindex[i] == selectedId {
@@ -108,15 +112,12 @@ extension CategoriesViewcontroller:UICollectionViewDelegate,UICollectionViewData
             selectiteamindex.append(selectedId)
           
         }
+
         if selectiteamindex.count >= 5 {
             selectiteamindex.remove(at: 0)
 //            selectiteamindex.append(selectedId)
-            print("selectid:\(selectedId)")
-
-
+//            print("selectid:\(selectedId)")
         }
         collectionView.reloadData()
-//        print("selectiteamindex :\(selectiteamindex)")
-        
     }
 }
